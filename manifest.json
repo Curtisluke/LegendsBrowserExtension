@@ -3,7 +3,6 @@
 	"version": "0.1",
 	"manifest_version": 2,
 	"description":"A browser extension to automatically switch Wookiepedia Pages to legends version",
-	///TODO: Connect JSON File with JS File
 	"content_scripts":[
 		{
 			"matches":["*://starwars.fandom.com/*"],
