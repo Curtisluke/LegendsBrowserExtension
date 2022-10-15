@@ -1,6 +1,6 @@
 {
 	"name":"Legends Browser Extension",
-	"version": "0.5",
+	"version": "1.0",
 	"manifest_version": 2,
 	"description":"A browser extension to automatically switch Wookiepedia Pages to legends version",
 	"content_scripts":[
