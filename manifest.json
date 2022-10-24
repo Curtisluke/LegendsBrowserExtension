@@ -8,7 +8,15 @@
     "48": "icons/kast_48.ico"
     ,"32" : "icons/kast.ico"
   	},
+  	"permissions" : [
+  		"activeTab"
+  	],
   	"homepage_url" : "https://github.com/Curtisluke/LegendsBrowserExtension",
+  	"browser_action": {
+    "default_icon": "icons/kast_32.ico",
+    "default_title": "AutoLegends",
+    "default_popup": "popup/autolegends_toggle.html"
+  	},
 	"content_scripts":[
 		{
 			"matches":["*://starwars.fandom.com/*"],
